@@ -2,7 +2,7 @@
 
 Features: user registration, login (PBKDF2-hashed passwords), session-protected course list, MySQL storage.
 
-Stack: Java 11, Servlets + JSP/JSTL, JDBC, MySQL 8, Maven, Tomcat 9.
+Stack: Java 25 (LTS), Servlets + JSP/JSTL, JDBC, MySQL 8, Maven, Tomcat 9.
 
 ## 1. Set up MySQL
     mysql -u root -p < db/schema.sql
